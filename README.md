@@ -8,7 +8,7 @@ List GIFs in a directory.
 
 ## Installation
 
-lsgif requires [chafa](https://github.com/hpjansson/chafa)
+`lsgif` requires [chafa](https://github.com/hpjansson/chafa)
 
 ```sh
 wget https://raw.githubusercontent.com/talentlessguy/lsgif/master/lsgif -o ~/.local/bin/
