@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+for i in $(ls)
+do
+	if file "$i" |grep -qE 'image|bitmap'; then
+	  chafa $i $@
+		printf "\n\n"
+		echo $i
+		printf "\n\n"
+	fi
+done
