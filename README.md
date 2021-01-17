@@ -4,11 +4,11 @@ List GIFs in a directory.
 
 > Inspired by [lsix](https://github.com/hackerb9/lsix)
 
-## Usage
+## Requirements
 
-## Installation
+- [chafa](https://github.com/hpjansson/chafa)
 
-`lsgif` requires [chafa](https://github.com/hpjansson/chafa)
+## Install
 
 ```sh
 wget https://raw.githubusercontent.com/talentlessguy/lsgif/master/lsgif -o ~/.local/bin/
